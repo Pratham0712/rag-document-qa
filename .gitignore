@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secret keys - NEVER commit this
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Vector store files (large binary)
+*.faiss
+*.pkl
+faiss_index/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Eval reports
+eval/reports/*.json
