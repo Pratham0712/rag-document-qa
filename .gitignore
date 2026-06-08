@@ -31,3 +31,5 @@ faiss_index/
 
 # Eval reports
 eval/reports/*.json
+
+data/
